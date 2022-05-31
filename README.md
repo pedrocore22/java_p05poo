@@ -25,3 +25,13 @@ modificadores class Identificador opciones {
 Se declaran o instancian con la palabra new y el constructor
 
 Clase identificador = new Clase(argumentos);
+
+## Paquetes
+
+Son una agrupación lógica de clases. En Java podemos modularizar el código mediante esta agrupación en la cual simplemente hay que añadir
+al inicio de cada archivo la sintaxis:
+
+package identificador; (convención de nombres)
+
+Normalmente todos los archivos de un paquete estarán en un
+mismo directorio del proyecto
